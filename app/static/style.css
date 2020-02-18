@@ -62,3 +62,21 @@ button.analyze-button {
 button:focus {
     outline: 0;
 }
+
+@media (max-width: 900px) {
+  .center {
+    width: 700px;
+  }
+}
+
+@media (max-width: 700px) {
+  .center {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .center {
+    width: 200px;
+  }
+}
